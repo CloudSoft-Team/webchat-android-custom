@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:id="@+id/type_session_voice_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/type_session_voice_id_list_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/imcc_user_online"/>
+
+    <FrameLayout
+        android:id="@+id/type_session_voice_id_recorder_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/type_session_voice_id_list_icon"
+        android:background="@drawable/session_to_chat_pp_bg_selector"
+        >
+
+        <View
+            android:id="@+id/type_session_voice_id_recorder_anima"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/adj"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/type_session_voice_id_recorder_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/type_session_voice_id_recorder_length"
+        android:text=""
+        android:layout_marginRight="3dp"
+        android:textColor="#ff777777"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/no_read_num_shape"
+        android:id="@+id/type_session_voice_id_recorder_read_iv"
+        android:layout_toLeftOf="@id/type_session_voice_id_recorder_time"
+        android:layout_centerVertical="true"
+        />
+
+    <chat.icloudsoft.userwebchatlib.widget.CustomProgressView
+        android:id="@+id/type_session_voice_custom_progress"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/type_session_voice_id_recorder_time"
+        />
+</RelativeLayout>

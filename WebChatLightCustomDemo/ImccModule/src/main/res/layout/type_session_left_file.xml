@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_session_file_content"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/imcc_server_online"
+                android:id="@+id/type_session_file_head"
+                android:layout_marginLeft="8dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:src="@drawable/ic_launcher"
+                android:layout_toRightOf="@id/type_session_file_head"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="120dp"
+                android:maxWidth="150dp"
+                android:visibility="gone"
+                android:background="@drawable/session_from_chat_pp_bg_selector"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:id="@+id/type_session_detail_file_vv"
+                android:src="@drawable/ic_launcher"
+                android:layout_toRightOf="@id/type_session_file_head"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/session_from_chat_pp_bg_selector"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/type_unknown"
+                    android:layout_margin="8dp"
+                    android:id="@+id/type_session_detail_file_logo_iv"
+                    />
+                <TextView
+                    android:id="@+id/type_session_detail_file_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/big_font_size"
+                    android:layout_toEndOf="@id/type_session_detail_file_logo_iv"
+                    android:layout_marginTop="8dp"
+                    android:lines="1"
+                    />
+                <TextView
+                    android:id="@+id/type_session_detail_file_size_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginBottom="4dp"
+                    />
+
+            </RelativeLayout>
+
+
+            <chat.icloudsoft.userwebchatlib.widget.CustomProgressView
+                android:id="@+id/type_session_file_custom_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="45dp"
+                android:layout_toLeftOf="@id/type_session_detail_file_vv"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+</RelativeLayout>

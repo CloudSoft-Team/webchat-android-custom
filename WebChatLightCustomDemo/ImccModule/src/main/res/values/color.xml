@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+     <color name="common_font_color">#FFFFFF</color>
+        <color name="menu_bar_bg_color">#1F1F1F</color>
+        <color name="result_view">#66000000</color>
+        <color name="viewfinder_mask">#66000000</color>
+        <color name="possible_result_points">#c0ffff00</color>
+        <color name="calculator_text">#FFFFFF</color>
+        <color name="all_button01_text">#FFFFFF</color>
+        <color name="all_button03_text">#FFFFFF</color>
+        <color name="text_color_white">#FFFFFF</color>
+        <color name="text_color_alpha_white">#99FFFFFF</color>
+        <!-- 枪灰色 -->
+        <color name="qianghuise">#e0e6ef</color>
+        <!-- 深枪灰色 -->
+        <color name="shenqianghuise">#333333</color>
+        <!-- 浅枪灰色 -->
+        <color name="qianqianghuise">#ffAAAAAA</color>
+        <!-- 黑色-->
+        <color name="back_color">#000000</color>
+          <!-- APP背景颜色 -->
+        <color name="all_bg">#F3F6FA</color>
+          <!-- APP背景颜色 -->
+        <color name="radio_group_bg">#ECF1F8</color>
+          <!-- 间隔线的颜色 -->
+        <color name="all_line_color">#D3D3D3</color>
+        <!-- 默认字体颜色 -->
+        <color name="common_text_color">#D6504F</color>
+        <!-- 订单列表字体颜色 -->
+        <color name="list_item_text_color">#FFFFFF</color>
+        <color name="dark">#000000</color>
+        <color name="goods_manage_bg">#DCDCDC</color>
+        <color name="gray_white_color">#999798</color>
+         <!-- 列表中  比枪灰色浅的灰色 -->
+        <color name="list_grey">#4b4b4e</color>
+         <!-- 头部颜色 -->
+        <color name="top_menu_bar_bg">#F65A24</color>
+         <!-- 引导界面橘红字体颜色 -->
+        <color name="orange_red">#FE5917</color>
+        <!-- 银灰色  引导界面底部文字I的颜色-->
+        <color name="silver_color">#666666</color>
+        <!-- 绿色，兑换成功字体提示-->
+        <color name="exchange_green_color">#18BD20</color>
+        <!-- 绿色 验证码时用到-->
+        <color name="green_text_color">#18bd20</color>
+          <color name="navpage">#FFE1E8EB</color>
+          <!-- 红色 -->
+          <color name="red_text_color">#FF0000</color>
+
+   <color name="color_transparent_aa4a4a4a">#aa4a4a4a</color>
+   <color name="color_4d4d4d">#4d4d4d</color>
+   <color name="white">#ffffff</color>
+
+   <color name="top_title_bg">#579DE6</color>
+   <color name="thirty_transparent_black">#4d000000</color>
+   <color name="twenty_transparent_black">#33000000</color>
+   <color name="holo_blue">#FF33E5B5</color>
+   <!--主色调-->
+   <color name="light_blue">#60AEFF</color>
+   <color name="drak_blue">#579DE6</color>
+   <color name="theme_blue">#1066e1</color>
+   <!--<color name="colorPrimary">#3F51B5</color>-->
+   <!--<color name="colorPrimaryDark">#303F9F</color>-->
+   <!--<color name="colorAccent">#FF4081</color>-->
+   <color name="style_color">#005fff</color>
+   <color name="green_color">#4FD18C</color>
+   <color name="yi_lian_bg">#052343</color>
+   <color name="hui_lian_red">#FE333F</color>
+   <color name="hui_lian_black">#34383F</color>
+   <color name="hui_lian_def_status_bar_color">#34383F</color>
+
+</resources>

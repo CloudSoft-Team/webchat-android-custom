@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	    <string-array name="user_jazzy_effects">
+        <item>Standard_Sdk</item>
+        <item>Tablet_Sdk</item>
+        <item>CubeIn_Sdk</item>
+        <item>CubeOut_Sdk</item>
+        <item>FlipVertical_Sdk</item>
+        <item>FlipHorizontal_Sdk</item>
+        <item>ZoomIn_Sdk</item>
+        <item>RotateUp_Sdk</item>
+        <item>RotateDown_Sdk</item>
+        <item>Accordion_Sdk</item>
+    </string-array>
+
+        <string-array name="file_title_tab_view">
+                <item>文档</item>
+                <item>应用</item>
+                <item>其他</item>
+        </string-array>
+</resources>

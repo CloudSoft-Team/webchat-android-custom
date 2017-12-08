@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_session_img_content"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/imcc_server_online"
+                android:id="@+id/type_session_img_head"
+                android:layout_marginLeft="8dp"
+                />
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:gravity="center_vertical"
+                android:id="@+id/type_session_detail_iV"
+                android:layout_toRightOf="@id/type_session_img_head"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:background="@drawable/session_from_chat_pp_bg_selector"
+                />
+
+            <chat.icloudsoft.userwebchatlib.widget.CustomProgressView
+                android:id="@+id/type_session_img_custom_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="45dp"
+                android:layout_toLeftOf="@id/type_session_detail_iV"
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_session_text_content"
+        android:gravity="right"
+        >
+    <chat.icloudsoft.userwebchatlib.widget.GifTextView
+        android:id="@+id/type_session_text_gif_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="250dp"
+        android:background="@drawable/session_to_chat_pp_bg_selector"
+        android:gravity="center_vertical"
+        android:text="右边"
+        android:layout_marginLeft="8dp"
+        android:autoLink="all"
+
+        />
+    <ImageView
+        android:id="@+id/type_session_text_head"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/type_session_text_gif_desc"
+        android:src="@drawable/imcc_user_online"
+        />
+        <ProgressBar
+            android:id="@+id/type_session_text_item_progress"
+            style="@android:style/Widget.ProgressBar.Small.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@id/type_session_text_gif_desc"
+            android:visibility="gone"
+            />
+        <chat.icloudsoft.userwebchatlib.widget.CustomProgressView
+            android:id="@+id/type_session_text_item_custom_progress"
+            style="@android:style/Widget.ProgressBar.Small.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@id/type_session_text_gif_desc"
+            />
+
+        <View
+            android:id="@+id/type_session_text_item_send_state"
+            android:layout_width="20dp"
+            android:layout_height="22dp"
+            android:background="@drawable/msg_state_fail_resend_pressed"
+            android:layout_toLeftOf="@id/type_session_text_gif_desc"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:visibility="gone"
+
+            />
+
+</RelativeLayout>
+</RelativeLayout>

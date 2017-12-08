@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/type_session_text_time"
+            android:gravity="center"
+            android:textSize="@dimen/small_font_size"
+            />
+
+        <include layout="@layout/type_left_session_message"/>
+        <!--图片-->
+        <include layout="@layout/type_session_left_img"/>
+        <!--声音-->
+        <include layout="@layout/type_session_left_voice"/>
+        <!--文件-->
+        <include layout="@layout/type_session_left_file"/>
+        <!--点击文字-->
+        <include layout="@layout/type_session_left_click_msg"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

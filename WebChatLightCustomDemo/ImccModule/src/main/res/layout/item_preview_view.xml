@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:gesture-image="http://schemas.polites.com/android"
+                android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+
+    >
+
+    <chat.icloudsoft.userwebchatlib.widget.GestureImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item_preview_view_img_lv"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        gesture-image:min-scale="0.1"
+        gesture-image:max-scale="10.0"
+        gesture-image:strict="false"
+
+        />
+
+</RelativeLayout>
