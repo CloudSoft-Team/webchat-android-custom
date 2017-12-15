@@ -19,3 +19,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-ignorewarning
+-keep class chat.icloudsoft.**{*;}
+-keep class com.nineoldandroids.**{*;}
+-keep class de.tavendo.autobahn.**{*;}
+-keep class org.dom4j.**{*;}
+-keep class org.json.**{*;}
