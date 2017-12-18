@@ -18,10 +18,28 @@
 
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
+
 #-renamesourcefileattribute SourceFile
--ignorewarning
+
+# icloudsoft
 -keep class chat.icloudsoft.**{*;}
+-dontwarn chat.icloudsoft.**
+
 -keep class com.nineoldandroids.**{*;}
+
+# tavendo
 -keep class de.tavendo.autobahn.**{*;}
--keep class org.dom4j.**{*;}
--keep class org.json.**{*;}
+-dontwarn de.tavendo.**
+
+# dom4j
+-keep class org.dom4j.** { *; }
+-dontwarn org.dom4j.**
+
+# retrofit
+-dontwarn okio.**
+-dontwarn javax.annotation.**
+-dontwarn com.fasterxml.**
+-dontwarn retrofit2.**
+
+# picasso
+-dontwarn com.squareup.okhttp.**
