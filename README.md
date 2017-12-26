@@ -7,7 +7,7 @@
 需要注意的是，这里依赖的是jar, 而非aar，所以在依赖时要添加@jar后缀
 如下：
 ```
-compile 'chat.icloudsoft:webchat-android-sdk:1.0.4@jar'
+compile 'chat.icloudsoft:webchat-android-sdk:1.0.7@jar'
 ```
 
 
